@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="info.androidhive.parsenotifications.activity.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:text="Parse Notifications"
+            android:textColor="#218eed"
+            android:textSize="24dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Enter your email address to subscribe to parse channel!"
+            android:textColor="#9d9d9d"
+            android:textSize="16dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/white"
+            android:hint="Your email address"
+            android:gravity="center_horizontal"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColor="#444444"
+            android:textColorHint="#888888"
+            android:textSize="18dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:background="#dedede"/>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="20dp"
+            android:background="#218eed"
+            android:text="Login"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+
+</RelativeLayout>
